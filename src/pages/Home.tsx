@@ -7,27 +7,27 @@ export const Home = (): React.ReactElement => {
   return (
     <div id="paperPage" style={{ fontSize: '16px', lineHeight: '30px' }}>
       <h2>NOTE: Please wait until Saturday 8/29 to share this widely</h2>
-      <p>
-        We hear that some folks are circulating this website beyond our circle
-        of beta testers ;). While we appreciate the publicity, we the
-        maintainers are still trying to finish our workweek of our full-time
-        jobs in peace and quiet, and we are NOT personally ready for hordes of
-        attention until the weekend. Please wait until Saturday before sharing
-        this link any further.
-      </p>
-      <p>
-        That said, in the meantime YES you are definitely welcome to be here, to
-        check out our tool privately and send us any feedback :)
-      </p>
-
       <h2>What is the microCOVID project?</h2>
       <p>
-        This is a project to quantitatively estimate the COVID risk to you from
-        your ordinary daily activities. We trawled the scientific literature for
-        data about the likelihood of getting COVID from different situations,
-        and combined the data into a model that people can use. We estimate
-        COVID risk in units of microCOVIDs, where 1 microCOVID = a
-        one-in-a-million chance of getting COVID.
+        This is a project by a communal house in San Francisco to quantitatively
+        estimate the COVID risk from ordinary daily activities. We reviewed
+        published research about the likelihood of getting COVID from different
+        situations, and combined the data into a model that people can use.
+      </p>
+      <p>
+        The model is not perfect, but it gives a rough estimate that we hope
+        will help you build your intuition about the comparative risk of
+        different activities. We hope you use this model to make safer choices.
+      </p>
+      <p className="warning">
+        <b>
+          Important: Unlike a scientific or medical standard of evidence, in
+          this tool we state our best estimate based on available evidence, even
+          when that evidence is not conclusive. We are not experts on this
+          topic. This work has not been scientifically peer-reviewed. There is
+          still a lot of uncertainty about COVID. Do not rely on this tool for
+          medical advice.
+        </b>
       </p>
 
       <h2>Where do I start?</h2>
@@ -63,19 +63,6 @@ export const Home = (): React.ReactElement => {
         truly. We're all volunteers and we don't currently have any funding to
         work on this project. Thank you in advance!
         <Donation />
-      </p>
-
-      <p>
-        <i>
-          Disclaimer: This work was collaboratively created by the members and
-          friends of Ibasho, a communal house in San Francisco. We have based
-          our numbers in this writeup on scientific research. However, unlike a
-          medical or scientific standard of evidence, we state our best guess
-          based on available evidence, even when that evidence is far from
-          conclusive. None of us are epidemiologists. This work has not been
-          scientifically peer-reviewed. Please continue to follow government
-          guidance.
-        </i>
       </p>
     </div>
   )

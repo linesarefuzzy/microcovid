@@ -104,7 +104,7 @@ function howRisky(points: number, budget: number): string[] {
   } else if (normalizedPoints < 100) {
     return ['moderate', riskyStyles[STYLE_MEDIUM]]
   } else if (normalizedPoints < 300) {
-    return ['high', riskyStyles[STYLE_HIGH]]
+    return ['high', riskyStyles[STYLE_MEDIUM]]
   } else if (normalizedPoints < 1000) {
     return ['very high', riskyStyles[STYLE_HIGH]]
   } else {
