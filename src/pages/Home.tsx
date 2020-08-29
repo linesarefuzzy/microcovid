@@ -19,7 +19,7 @@ export const Home = (): React.ReactElement => {
         will help you build your intuition about the comparative risk of
         different activities. We hope you use this model to make safer choices.
       </p>
-      <p className="warning">
+      <p>
         <b>
           Important: Unlike a scientific or medical standard of evidence, in
           this tool we state our best estimate based on available evidence, even
